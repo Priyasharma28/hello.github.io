@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="hover.css">
+  <style>
+        html,body
+        {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        *
+        {
+            box-sizing: border-box;
+        }
+        body::-webkit-scrollbar
+        {
+            width: 4px;
+        }
+        body::-webkit-scrollbar-thumb
+        {
+            background-color: orange;
+        }
+        .class1{
+            height:100vh;
+            width:100%;
+           
+            background-color: rgb(52,74,97);
+        }
+        .class2{
+            height:100vh;
+            width:100%;
+            border:1px solid transparent;
+            background-color: rgb(241,125,113);
+        }
+        .class3{
+            height:60vh;
+            width:100%;
+            border:1px solid transparent;
+            background-color: rgb(50,173,153);
+          
+        }
+        .nav{
+            height:10vh;
+            width:100%;
+          
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            height:90vh;
+            width:100%;
+          
+        }
+        .heading{
+            height:30vh;
+            width:100%;
+           
+        }
+        .dott{
+            height:30vh;
+            width:100%;
+          
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .icons{
+            height:30vh;
+            width:100%;
+           
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading1{
+            height:10vh;
+            width:100%;
+          
+        }
+        .para{
+            height:20vh;
+            width:50%;
+         
+            display:flex;
+            justify-content: center;
+            align-items: center;
+             margin-left:330px;
+      
+        }
+        .cards{
+            height:70vh;
+            width:100%;
+       
+            display:flex;
+            justify-content: center;
+            align-items: center
+          
+        }
+        .heading2{
+            height:30vh;
+            width:100%;
+          
+        }
+        .para1{
+            height:30vh;
+            width:50%;
+           
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 330px;
+        }
+        .sub1{
+            height:10vh;
+            width:50%;
+          
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sub2{
+            height:10vh;
+            width:50%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+       
+           
+        }
+        .p1{
+            font-size: 25px;
+            font-family: 'Lobster', cursive;
+            color:white;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .p2{
+            font-size: 15px;
+            color:white;
+            text-align:center;
+         
+        
+        }
+        .mini1,.mini2,.mini3{
+            height:10vh;
+         width:500%;
+        
+         display:flex;
+            justify-content: center;
+            align-items: center;
+          
+          
+        }
+        .d1{
+            text-decoration: none;
+            color:white;
+            font-weight: bold;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 14px;
+        }
+        .h1{
+            color:white;
+            font-family:monospace;
+            font-size:40px;
+            padding-top:50px;
+            padding-left:250px;
+        }
+        .h2{
+            color:white;
+            font-family:monospace;
+            font-size:25px;
+            text-align:center;
+          
+        }
+        .h3{
+           padding-top: 120px;
+            color:white;
+            font-family:monospace;
+            font-size:30px;
+            text-align:center;
+          
+        }
+        .dot1,.dot3,.dot4{
+            height:4vh;
+            width:2%;
+            border-radius:50px;
+            background-color: gray;
+        } 
+        .dot2{
+            height:4vh;
+            width:2%;
+            border-radius:50px;
+            background-color: white;
+           
+        }
+        .icon1{
+            height:6vh;
+            width:3%;
+            border:2px solid white;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            border-radius:50px;
+        }
+        .icon2{
+            height:6vh;
+            width:3%;
+            border:2px solid white;
+            border-radius:50px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card1{
+            height:40vh;
+            width:15%;
+         
+            background-color: rgb(232,104,95);
+        }
+        .card2{
+            height:40vh;
+            width:15%;
+         
+            background-color: rgb(232,104,95);
+        }
+        .card3{
+            height:40vh;
+            width:15%;
+           
+            background-color: rgb(232,104,95);
+        }
+        .card4{
+            height:40vh;
+            width:15%;
+        
+            background-color: rgb(232,104,95);
+        }
+        .img1{
+            height:30vh;
+            width:100%;
+         
+            
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        .name1{
+            height:10vh;
+            width:100%;
+          
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img2{
+            height:30vh;
+            width:100%;
+           
+            display:flex;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        .imm1,.imm2,.imm3,.imm4{
+            height:100px;
+               width:100px;
+        }
+        .name2{
+            height:10vh;
+            width:100%;
+           
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img3{
+            height:30vh;
+            width:100%;
+           
+            display:flex;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        .name3{
+            height:10vh;
+            width:100%;
+        
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img4{
+            height:30vh;
+            width:100%;
+           
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .pp1{
+            color:white;
+            text-align: center;
+        }
+        .name4{
+            height:10vh;
+            width:100%;
+          
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media only screen and (max-width:500px)
+        {
+            
+           .sub1 {
+              
+                width: 30%;
+              
+            }
+            .sub2 {
+              
+              width: 70%;
+            
+          }
+        }
+        @media only screen and (max-width:500px)
+        {
+            
+     .h1{
+                font-size:22px;
+                padding-left:40px;
+                font-family:cursive;
+                font-weight:bold;
+            }
+        
+        }
+        @media only screen and (max-width:500px){
+            .dot1,.dot3,.dot4{
+            height:4vh;
+            width:5%;
+            border-radius:80px;
+            background-color: gray;
+        } 
+        .dot2{
+            height:4vh;
+            width:5%;
+            border-radius:80px;
+            background-color: white;
+           
+        }
+        }
+        @media only screen and (max-width:500px){
+            .icon1{
+            height:6vh;
+            width:8%;
+           
+        }
+        .icon2{
+            height:6vh;
+            width:8%;
+            
+        }
+        }
+        @media only screen and (max-width:500px){
+            .h2{
+                font-size:20px;
+                font-family:'Josefin Sans', sans-serif;
+            }
+           
+        }
+        @media only screen and (max-width:500px){
+           .para{
+               width:100%;
+               margin-left: 0%;
+               padding:10px;
+           }
+        }
+        @media only screen and (max-width:500px){
+           .card1,.card2,.card3,.card4{
+               width:60%;
+               height:50vh;
+               margin-left:100px;
+               margin-top:20px;
+               
+              
+           }
+        }
+        @media only screen and (max-width:500px){
+           .class2{
+       height:270vh;
+           
+              
+           }
+           .cards{
+               height:240vh;
+               display:block;
+            
+           }
+        }
+        @media only screen and (max-width:500px){
+           .img1,.img2,.img3,.img4{
+       height:40vh;
+           
+              
+           }
+          
+        }
+        @media only screen and (max-width:500px){
+        .imm1,.imm2,.imm3,.imm4{
+               height:150px;
+               width:150px;
+           }
+        }
+        @media only screen and (max-width:500px){
+            .h3{
+            font-size:30px;
+            
+         padding-top: 0%;
+
+        }
+        .heading2{
+            width:100%;
+            height:10vh;
+
+        }
+        }
+        @media only screen and (max-width:500px){
+            .para1{
+                width:100%;
+                margin-left:0%;
+               
+            }
+            .pp1{
+                text-align: center;
+                margin:10px;
+            }
+        }
+        @media only screen and (max-width:500px){
+            .icon1,.icon2{
+                border-radius:120px;
+            }
+        }
+ 
+       
+        .d1:hover{
+        background-color:rgb(62,157,201);
+        transition: 0.5s;
+        color:white;
+        display: flex;
+        justify-content :center;
+        align-items: center;
+        height: 100%;
+        width:100%;
+        font-weight:bold;
+      
+        }
+        #color{
+            text-decoration: none;
+                        color:white;
+                        font-size: 16px;
+                        font-weight: bold;
+                         display:flex;
+                         justify-content: center;
+                         align-items: center;
+        }
+        @media only screen and (max-width:500px)
+{
+    .d1:hover{
+        background-color:rgb(62,157,201);
+        transition: 0.5s;
+        color:white;
+        display: flex;
+        justify-content :center;
+        align-items: center;
+        height: 100%;
+        width:100%;
+        font-weight:bold;
+      
+        }
+        #color{
+            text-decoration: none;
+                        color:white;
+                        font-size: 16px;
+                        font-weight: bold;
+                         display:flex;
+                         justify-content: center;
+                         align-items: center;
+        }
+
+}        </style>
+</head>
+<body>
+    <div class="class1">
+        <div class="nav">
+            <div class="sub1"><p class="p1">Simplex</p></div>
+            <div class="sub2">
+                <div class="mini1"><a href="#" class="d1 hvr-underline-from-center" id="color">Home</a></div>
+                <div class="mini2"><a href="#" class="d1 hvr-underline-from-center" id="color">About</a></div>
+                <div class="mini3"><a href="#" class="d1 hvr-underline-from-center" id="color">Services</a></div>
+                
+            </div>
+        </div>
+        <div class="content">
+            <div class="heading"><h1 class="h1">Interminable Energy for Your Project</h1></div>
+            <div class="dott">
+                <div class="dot1"></div>&nbsp;&nbsp;
+                <div class="dot2"></div>&nbsp;&nbsp;
+                <div class="dot3"></div>&nbsp;&nbsp;
+                <div class="dot4"></div>
+            </div>
+            <div class="icons">
+                <div class="icon1"><i class="fab fa-facebook-f" style="color:white; font-size:14px; "></i></div>&nbsp;&nbsp;
+                        <div class="icon2"><i class="fab fa-twitter" style="color:white; font-size:14px;"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="class2">
+            <div class="heading1"><h2 class="h2">Only Professional services for Our clients</h2></div>
+            <div class="para"><p class="p2">Lorem ipsum dolor Lorem ipsum  sit amet Lorem ipsum dolor sit. Lorem, ipsum. Quaerat voluptates minus modi ipsa,Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p></div>
+            <div class="cards">
+                <div class="card1">
+                    <div class="img1"><img src="p1.png" class="imm1"></div>
+                    <div class="name1"><p style="color:white; font-size:20px;">Rupali Singh</p></div>
+                </div>&nbsp;&nbsp;&nbsp;<br>
+                <div class="card2">
+                    <div class="img2"><img src="p2.png"class="imm2"></div>
+                    <div class="name2"><p style="color:white; font-size:20px;">Aryan Sharma</p></div>
+                </div>&nbsp;&nbsp;&nbsp;<br>
+                <div class="card3">
+                    <div class="img3"><img src="p3.png" class="imm3"></div>
+                    <div class="name3"><p style="color:white; font-size:20px;">Jasmin Gupta</p></div>
+                </div>&nbsp;&nbsp;&nbsp;<br>
+                <div class="card4">
+                   <div class="img4"><img src="p4.png" class="imm4"></div>
+                   <div class="name4"><p style="color:white; font-size:20px;">Charu jain</p></div>
+                </div>
+            </div>
+    </div>
+    <div class="class3">
+        <div class="heading2"><h1 class="h3">Our Services</h1></div>
+        <div class="para1"><p class="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.
+             Qui velit quos vero at sunt saepe reiciendis Lorem ipsum dolor Lorem, ijj consectetur, adipisicing  cumque quas ipsum dolor. Lorem. Praesentium itaque maxime tenetur adipisci libero Lorem, ipsum. </p></div>
+    </div>
+    
+</body>
+</html>
